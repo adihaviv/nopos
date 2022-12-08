@@ -1,4 +1,4 @@
-How to recreate the pile dataset:
+# How to recreate the pile dataset:
 we leverage the The Pile preprocess that was done in Scrolls, 
 to access the initial files go to:
 https://github.com/oriyor/scrolls_pt_data/tree/main
