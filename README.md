@@ -28,7 +28,8 @@ fairseq-preprocess \
 
 ## Large Scale Setting - The Pile
 To reconstract The Pile subset data we used for the experiments in the paper see https://github.com/adihaviv/NoPos/tree/main/nopos_experiments/the_pile_construction
-The dataset can be found in [this link] (https://www.cs.tau.ac.il/~adihaviv1/nopos_the_pile)
+
+The preprocessed dataset can be found in https://www.cs.tau.ac.il/~adihaviv1/nopos_the_pile
     
 ## Citation
 
