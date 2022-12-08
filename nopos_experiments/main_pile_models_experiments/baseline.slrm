@@ -1,0 +1,14 @@
+#!/bin/sh
+#SBATCH --job-name=baseline
+#SBATCH --output=checkpoints/baseline/out
+#SBATCH --error=checkpoints/baseline/err
+#SBATCH --constraint=volta32gb
+#SBATCH --partition=devlab
+#SBATCH --nodes=4
+#SBATCH --ntasks-per-node=8
+#SBATCH --signal=USR1
+#SBATCH --mem=500000
+#SBATCH --gres=gpu:8
+#SBATCH --cpus-per-task=6
+#SBATCH --time 1987
+srun sh baseline.sh

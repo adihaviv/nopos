@@ -1,0 +1,14 @@
+#!/bin/sh
+#SBATCH --job-name=alibi
+#SBATCH --output=checkpoints/alibi/out
+#SBATCH --error=checkpoints/alibi/err
+#SBATCH --constraint=volta32gb
+#SBATCH --partition=learnlab
+#SBATCH --nodes=4
+#SBATCH --ntasks-per-node=8
+#SBATCH --signal=USR1
+#SBATCH --mem=500000
+#SBATCH --gres=gpu:8
+#SBATCH --cpus-per-task=6
+#SBATCH --time 1987
+srun sh alibi.sh
