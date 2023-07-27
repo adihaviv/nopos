@@ -5,7 +5,7 @@ This repository contains the code for the analysis and models discussed in the p
 This repository is a fork of the [Fairseq] (https://github.com/facebookresearch/fairseq) repository and so has the same requirements.
 
 # NoPos Models
-The main models (including 1.3B parameters model) that were trained without position embeddings (NoPos models) are avilable in the following link: https://www.cs.tau.ac.il/~adihaviv1/nopos_models/
+The main models (including the 1.3B parameters model) that were trained without position embeddings (NoPos models) are available in the following [link]https://drive.google.com/drive/folders/1avrK37tzBAVidZSE79b8vQCNcLLpNc-u?usp=sharing.
 
 ## Datasets
 ## Canonical setting - wikitext-103 
@@ -27,9 +27,9 @@ fairseq-preprocess \
 ```
 
 ## Large Scale Setting - The Pile
-To reconstract The Pile subset data we used for the experiments in the paper see https://github.com/adihaviv/NoPos/tree/main/nopos_experiments/the_pile_construction
+To reconstruct The Pile subset data we used for the experiments in the paper, see https://github.com/adihaviv/NoPos/tree/main/nopos_experiments/the_pile_construction
 
-The preprocessed dataset can be found in https://www.cs.tau.ac.il/~adihaviv1/nopos_the_pile
+The preprocessed dataset can be found at https://www.cs.tau.ac.il/~adihaviv1/nopos_the_pile
     
 ## Citation
 
@@ -43,4 +43,4 @@ If you find this work helpful, please cite us
 }
 ```
 
-This repo is still improving. for any questions, please email adi.haviv@cs.tau.ac.il
+This repo is still improving. For any questions, please email adi.haviv@cs.tau.ac.il
