@@ -34,12 +34,21 @@ The preprocessed dataset (validation set) can be found at [link](https://drive.g
 ## Citation
 
 If you find this work helpful, please cite us
-```@inproceedings{haviv2022transformer,
-  title={Transformer Language Models without Positional Encodings Still Learn Positional Information},
-  author={Haviv, Adi and Ram, Ori and Press, Ofir and Izsak, Peter and Levy, Omer},
-  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2022},
-  pages={1382--1390},
-  year={2022}}
+```@inproceedings{haviv-etal-2022-transformer,
+    title = "Transformer Language Models without Positional Encodings Still Learn Positional Information",
+    author = "Haviv, Adi  and
+      Ram, Ori  and
+      Press, Ofir  and
+      Izsak, Peter  and
+      Levy, Omer",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.99",
+    pages = "1382--1390",
+}
 ```
 
 This repo is still improving. For any questions, please email adi.haviv@cs.tau.ac.il
