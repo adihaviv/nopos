@@ -2,10 +2,10 @@
 This repository contains the code for the analysis and models discussed in the paper "[Transformer Language Models without Positional Encodings Still Learn Positional Information](https://arxiv.org/abs/2203.16634)".
 
 ## Requirements and Installation
-This repository is a fork of the [Fairseq] (https://github.com/facebookresearch/fairseq) repository and so has the same requirements.
+This repository is a fork of the [Fairseq](https://github.com/facebookresearch/fairseq) repository and has the same requirements.
 
 # NoPos Models
-The main models (including the 1.3B parameters model) that were trained without position embeddings (NoPos models) are available in the following [link]https://drive.google.com/drive/folders/1avrK37tzBAVidZSE79b8vQCNcLLpNc-u?usp=sharing.
+The main models (including the 1.3B parameters model) that were trained without position embeddings (NoPos models) are available in the following [link](https://drive.google.com/drive/folders/1avrK37tzBAVidZSE79b8vQCNcLLpNc-u?usp=sharing).
 
 ## Datasets
 ## Canonical setting - wikitext-103 
